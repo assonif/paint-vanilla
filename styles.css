@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#paintable-area{
+  width: 700px;
+  height: 500px;
+
+  background: white;
+  box-shadow:  0 0 5px rgba(0, 0, 0, 0.3)
+}
+
+body {
+  display: flex;
+  align-items: center;
+
+  background: #f6f7f5;
+}
+
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 400px;
+  width: 40px;
+  margin: 15px
+}
+
+.buttons>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.buttons>div>button {
+  width: 40px;
+  height: 40px;
+
+  border-radius: 10px;
+  border: none;
+
+  background: #332323;
+
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+
+  outline-style: none;
+
+  margin-top: 10px;
+}
+
+.buttons>div>button:first-child {
+
+  margin-top: 0;
+}
+
+
+.colors {
+  list-style: none;
+}
+
+.colors .def { 
+  width: 40px;
+  height: 40px;
+
+  margin-top: 10px;
+  border-radius: 50%;
+}
+
+.colors .red {
+  background: red;
+}
+
+.colors .green {
+  background: green;
+}
+
+.colors .yellow {
+  background: yellow;
+}
+
+.colors .black {
+  background: black;
+}
+
+.colors .blue {
+  background: blue;
+}
